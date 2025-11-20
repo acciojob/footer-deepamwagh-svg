@@ -30,6 +30,12 @@ footer .top {
   color: #fff;
 }
 
+.media-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .media-icons a {
   height: 40px;
   width: 40px;
@@ -97,7 +103,6 @@ footer .top {
   color: #fff;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .box {
     width: 45%;
@@ -109,9 +114,4 @@ footer .top {
   .top {
     flex-direction: column;
   }
-  .media-icons {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
 }
