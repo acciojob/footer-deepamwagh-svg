@@ -1,1 +1,118 @@
 /* your code here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  width: 100%;
+  padding: 20px 0;
+}
+
+footer .content {
+  max-width: 1300px;
+  margin: auto;
+  padding: 20px;
+}
+
+footer .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-details .logo_name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.media-icons a {
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+  text-align: center;
+  line-height: 40px;
+  background: #222;
+  border-radius: 50%;
+  font-size: 18px;
+  color: white;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.media-icons a:hover {
+  background: #444;
+}
+
+.link-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.box {
+  width: 18%;
+  list-style: none;
+}
+
+.box .link_name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.box li {
+  margin: 8px 0;
+}
+
+.box a {
+  color: #aaa;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.box a:hover {
+  color: #fff;
+}
+
+.bottom-details {
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.bottom-details a {
+  color: #aaa;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.bottom-details a:hover {
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .box {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top {
+    flex-direction: column;
+  }
+  .media-icons {
+    margin-top: 10px;
+  }
+  .box {
+    width: 100%;
+  }
+}
